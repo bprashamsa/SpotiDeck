@@ -1,5 +1,6 @@
 # SpotiDeck
 A pocket-sized Spotify controller built on a touchscreen ESP32 board! Meaning that you can play, pause, skip, and see what's playing without ever opening a browser tab while doing your work.
+** PSA: You'll need a Spotify Premium account, playback control endpoints require Premium. ***
 
 # Current Features:
 - Play / Pause Skip forward / back
@@ -21,4 +22,4 @@ On first boot you authorize the device with your Spotify account and obtain a re
 That refresh token is stored on the device. The firmware uses the refresh token to request short-lived access tokens as needed, then calls Spotify's endpoints. 
 Track info and album art are pulled down and rendered on the display; touch input on the screen triggers the respective API calls. 
 
-** PSA: You'll need a Spotify Premium account, playback control endpoints require Premium. ***
+
