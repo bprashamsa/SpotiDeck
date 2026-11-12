@@ -5,7 +5,7 @@ A pocket-sized Spotify controller built on a touchscreen ESP32 board! Meaning th
 - Play / Pause Skip forward / back
 - Live "Now Playing" display — track name, artist, album
 - Custom touchscreen UI, hand-drawn/designed graphics by me!
--  Talks directly to the Spotify Web API over Wi-Fi, no separate relay server needed!
+-  Talks directly to the Spotify Web API over Wi-Fi
 
 # Hardware Used
 - Board: Hosyond 3.5" ESP32 Display — ESP32-WROOM-32, dual-core, 240MHz
