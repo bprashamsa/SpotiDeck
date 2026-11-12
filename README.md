@@ -15,10 +15,10 @@ A pocket-sized Spotify controller built on a touchscreen ESP32 board! Meaning th
 - Power: USB-C
 
 # How It Works: 
-SpotiDeck runs on the ESP32 board
+SpotiDeck runs on the ESP32 board.
 It talks to the Spotify Web API directly over HTTPS: 
-On first boot (or via a one-time setup step on your computer), you authorize the device with your Spotify account and obtain a refresh token. 
+On first boot you authorize the device with your Spotify account and obtain a refresh token. 
 That refresh token is stored on the device. The firmware uses the refresh token to request short-lived access tokens as needed, then calls Spotify's endpoints. 
-Track info and album art are pulled down and rendered on the display; touch input on the screen triggers the corresponding API calls. 
+Track info and album art are pulled down and rendered on the display; touch input on the screen triggers the respective API calls. 
 
 ** PSA: You'll need a Spotify Premium account, playback control endpoints require Premium. ***
